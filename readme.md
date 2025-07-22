@@ -40,13 +40,30 @@ Você verá um prompt com as opções:
 
 ## 🗂 Estrutura do Projeto
 
-3 - O arquivo .env na raiz do projeto possui as seguintes configurações (ajuste conforme desejar):
+gerador-qrcode-password/
+├── index.js                        # Arquivo principal
+├── prompts-schema/
+│   └── prompt-schema-main.js      # Definições dos prompts
+├── services/
+│   ├── password/
+│   │   └── create.js              # Função geradora de senha
+│   └── qr-code/
+│       └── create.js              # Função geradora de QR Code
 
+
+## ⚙️ Configurações via .env
+
+O arquivo .env, localizado na raiz do projeto, permite personalizar a geração da senha. Exemplo:
+
+env
+Copiar
+Editar
 UPPERCASE_LETTERS=false
-LOWERCASE_LETTER=false
+LOWERCASE_LETTERS=false
 NUMBERS=true
 SPECIAL_CHARACTERS=true
 PASSWORD_LENGTH=12
+⚠️ Altere os valores conforme sua necessidade (true ou false).
 
 ## 📋 Tecnologias
 Node.js
