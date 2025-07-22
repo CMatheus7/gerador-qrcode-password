@@ -1,98 +1,57 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Gerador de QRcode para e-commerce</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+# 🔐 Gerador QR Code & Senhas Aleatoria
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+Projeto simples em Node.js que permite gerar **QR Codes** e **senhas seguras** diretamente pelo terminal.
 
-</p>
+> 📦 Repositório: [CMatheus7/gerador-qrcode-password](https://github.com/CMatheus7/gerador-qrcode-password)
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+---
 
-<br/>
-<br/>
+## ✨ Funcionalidades
 
-## 💻 Sobre o Projeto
+- ✅ Gerar QR Code a partir de uma URL ou texto
+- ✅ Gerar senha segura com critérios definidos
 
-Vamos construir um kit de utilidades para um e-commerce, o projeto deve ser escalável para ter adição de novas features.
+---
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+## 📦 Instalação
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+1. Clone o repositório:
 
-- Lógica de programação
-- Javascript | Básico
-- NodeJS | Básico
-- Node Modules
-- NPM, Packages, Dependencies
-- Variáveis ambiente (.env)
+```bash
+git clone https://github.com/CMatheus7/gerador-qrcode-password.git
+cd gerador-qrcode-password
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+▶️ Como usar
+Execute o projeto com o comando abaixo:
 
-- Como gerar qrcode com node
-- Como lidar com várias dependências de um projeto
-- Como pensar em projetos por camadas
+bash
+Copiar
+Editar
+node index.js
+Você verá um prompt com as opções:
 
-## 🎯 Objetivos e Resultados Esperados
+1 → Criar QR Code
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+2 → Gerar Senha Segura
 
-- Criar projetos nodejs que gerem multiplas dependências
+🗂 Estrutura do Projeto
+pgsql
+Copiar
+Editar
+gerador-qrcode-password/
+├── index.js                        # Arquivo principal
+├── prompts-schema/
+│   └── prompt-schema-main.js      # Definições dos prompts
+├── services/
+│   ├── password/
+│   │   └── create.js              # Função geradora de senha
+│   └── qr-code/
+│       └── create.js              # Função geradora de QR Code
+📋 Tecnologias
+Node.js
 
-<!--START_SECTION:footer-->
+prompt
 
-<br />
-<br />
+🧑‍💻 Autor
+Desenvolvido por Cristian Matheus
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
