@@ -40,15 +40,15 @@ Você verá um prompt com as opções:
 
 ## 🗂 Estrutura do Projeto
 
-gerador-qrcode-password/
--- ├── index.js                        # Arquivo principal
--- ├── prompts-schema/
--- │   └── prompt-schema-main.js      # Definições dos prompts
--- ├── services/
--- │   ├── password/
--- │   │   └── create.js              # Função geradora de senha
---│   └── qr-code/
--- │       └── create.js              # Função geradora de QR Code
+- gerador-qrcode-password/
+- ├── index.js                        # Arquivo principal
+- ├── prompts-schema/
+- │   └── prompt-schema-main.js      # Definições dos prompts
+- ├── services/
+- │   ├── password/
+- │   │   └── create.js              # Função geradora de senha
+- │   └── qr-code/
+- │       └── create.js              # Função geradora de QR Code
 
 
 ## ⚙️ Configurações via .env
@@ -63,7 +63,10 @@ Editar
 - NUMBERS=true
 - SPECIAL_CHARACTERS=true
 - PASSWORD_LENGTH=12
-⚠️ Altere os valores conforme sua necessidade (true ou false).
+  
+---
+
+- ⚠️ Altere os valores conforme sua necessidade (true ou false).
 
 ## 📋 Tecnologias
 Node.js
