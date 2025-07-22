@@ -51,7 +51,8 @@ Você verá um prompt com as opções:
 
 ## ⚙️ Configurações via .env
 
-O arquivo .env, localizado na raiz do projeto, permite personalizar a geração da senha. Exemplo:
+O arquivo .env, localizado na raiz do projeto, permite personalizar a geração da senha. 
+Exemplo:
 
 env
 Copiar
@@ -61,10 +62,8 @@ Editar
 - NUMBERS=true
 - SPECIAL_CHARACTERS=true
 - PASSWORD_LENGTH=12
-  
----
-
 - ⚠️ Altere os valores conforme sua necessidade (true ou false).
+  
 
 ## 📋 Tecnologias
 Node.js
