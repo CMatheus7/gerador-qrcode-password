@@ -24,9 +24,7 @@ cd gerador-qrcode-password
 
 ## ▶️ Como usar
 
----
-
-Execute o projeto com o comando abaixo:
+Execute o projeto com o comando:
 
 bash
 Copiar
